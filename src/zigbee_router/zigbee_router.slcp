@@ -51,6 +51,8 @@ component:
   # custom from zigbee_z3_light & zigbee_gp_z3_light_combo
   - id: rail_util_rssi
   - id: zigbee_concentrator
+  - id: router_eui64_unique
+  - id: router_beacon_filter
 
 define:
   # - name: SL_ZIGBEE_CUSTOM_MAC_FILTER_TABLE_SIZE
