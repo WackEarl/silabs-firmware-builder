@@ -6,6 +6,14 @@ quality: production
 description: Zigbee Router firmware optimized for Zigbee2MQTT use. Derived from the `zigbee_z3_light` example Simplicity SDK project.
 author: Nerivec
 
+sdk_extension:
+  - id: router_eui64_unique
+    vendor: nabucasa
+    version: 1.0.0
+  - id: router_beacon_filter
+    vendor: nabucasa
+    version: 1.0.0
+
 component:
   - id: sl_main
   - id: iostream_recommended_stream
