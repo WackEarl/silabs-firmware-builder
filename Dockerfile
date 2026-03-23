@@ -33,7 +33,7 @@ RUN set -e \
         ninja/1.12.1 \
         commander/1.22.0 \
         slc-cli/6.0.15 \
-        simplicity-sdk/2025.12.1 \
+        simplicity-sdk/2025.6.3 \
         zap/2025.12.02 \
     # Patch ZAP apack.json to add missing linux.aarch64 executable definitions
     # Remove once zap is bumped to 2026.x.x

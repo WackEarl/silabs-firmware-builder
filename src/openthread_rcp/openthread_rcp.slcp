@@ -8,7 +8,7 @@ author: Nerivec
 sdk:
   vendor: silabs
   id: simplicity_sdk
-  version: 2025.12.1
+  version: 2025.6.3
 toolchain_settings: []
 
 component:

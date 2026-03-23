@@ -2,7 +2,7 @@ name: NabuCasa SkyConnect OpenThread RCP
 device: EFR32MG21A020F512IM32
 base_project: src/openthread_rcp
 filename: "{manifest_name}_{sdk_version}_{fw_version}_{baudrate}_{fw_variant}"
-sdk: "simplicity_sdk:2025.12.1"
+sdk: "simplicity_sdk:2025.6.3"
 toolchain: "12.2.1.20221205"
 
 gbl:
