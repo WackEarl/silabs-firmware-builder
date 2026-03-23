@@ -21,112 +21,48 @@ sdk_extension:
 
 component:
   - id: sl_main
-    package: simplicity_sdk
-    vendor: silabs
   - id: iostream_recommended_stream
-    package: simplicity_sdk
-    vendor: silabs
   - id: iostream_usart
-    package: simplicity_sdk
-    vendor: silabs
     instance:
       - vcom
     condition:
       - device_generic_family_efr32xg21
   - id: iostream_eusart
-    package: simplicity_sdk
-    vendor: silabs
     instance:
       - vcom
     condition:
       - device_has_eusart
   - id: zigbee_debug_basic
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_debug_print
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_pro_stack
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_source_route
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_stack_diagnostics
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_gp
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_zcl_framework_core
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_identify
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_counters
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_green_power_common
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_green_power_client
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_interpan
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_network_steering
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_reporting
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_basic
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_scan_dispatch
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_update_tc_link_key
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_update_app_link_key
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_security_link_keys
-    package: simplicity_sdk
-    vendor: silabs
   - id: clock_manager
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_dynamic_commissioning
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_trust_center_keepalive
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_poll_control_client
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_bdb_3dot1_rejoin_algorithm
-    package: simplicity_sdk
-    vendor: silabs
   # - id: zigbee_bdb_3dot1_trust_center_extension
   - id: zigbee_application_bootloader
-    package: simplicity_sdk
-    vendor: silabs
   # Platform - enable LTO for gcc
   - id: toolchain_gcc_lto
-    package: simplicity_sdk
-    vendor: silabs
   # custom from zigbee_z4_light & zigbee_gp_z3_light_combo
   - id: rail_util_rssi
-    package: simplicity_sdk
-    vendor: silabs
   - id: zigbee_concentrator
-    package: simplicity_sdk
-    vendor: silabs
   - id: router_eui64_unique
     package: router_eui64_unique
     vendor: nabucasa
