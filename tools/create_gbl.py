@@ -172,9 +172,7 @@ def main():
     elif fw_type == "gecko-bootloader":
         # not currently in SLCS
         btl_config_h = parse_c_header_defines(
-            (
-                gsdk_path / "platform/bootloader/config/btl_config.h"
-            ).read_text()
+            (gsdk_path / "platform/bootloader/config/btl_config.h").read_text()
         )
 
         metadata["fw_version"] = (
