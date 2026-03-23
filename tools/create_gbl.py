@@ -173,7 +173,7 @@ def main():
         # not currently in SLCS
         btl_config_h = parse_c_header_defines(
             (
-                gsdk_path / "bootloader/platform/bootloader/config/btl_config.h"
+                gsdk_path / "platform/bootloader/config/btl_config.h"
             ).read_text()
         )
 
