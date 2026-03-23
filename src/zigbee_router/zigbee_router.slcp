@@ -49,13 +49,13 @@ component:
   - id: zigbee_basic
   - id: zigbee_scan_dispatch
   - id: zigbee_update_tc_link_key
-  - id: zigbee_update_app_link_key
+  # - id: zigbee_update_app_link_key
   - id: zigbee_security_link_keys
   - id: clock_manager
   - id: zigbee_dynamic_commissioning
   - id: zigbee_trust_center_keepalive
   - id: zigbee_poll_control_client
-  - id: zigbee_bdb_3dot1_rejoin_algorithm
+  # - id: zigbee_bdb_3dot1_rejoin_algorithm
   # - id: zigbee_bdb_3dot1_trust_center_extension
   - id: zigbee_application_bootloader
   # Platform - enable LTO for gcc
